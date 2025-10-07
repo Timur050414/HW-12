@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     padding: 0px;
-
 }
 .container {
     width: 1200px;
@@ -9,7 +8,9 @@ body {
     text-align: center; 
 }
 .header {
-    background-color: #0890ff;
+    background: linear-gradient(blue, lightblue, beige);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    
 }
 .menu{
     display: flex;
@@ -33,12 +34,9 @@ body {
     background-color: rgb(255, 243, 110);
     color: #000;
     border-radius: 5px;
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .link:hover{
-
-    background-color: rgb(13, 255, 0);
+    background: linear-gradient(beige, lightblue, blue);
     font-weight: 700;
 }
 .gallery{
@@ -70,6 +68,10 @@ body {
 .button:hover {
     background: #ffdb4d;   
     color: #000;   
-    font-weight: 700;        
-}
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8),    /* Червона тінь */
+                0 0 20px rgba(0, 0, 255, 0.5),    /* Синя тінь */
+                0 0 30px rgba(0, 255, 0, 0.3);    /* Зелена тінь */
+}        
+
 
